@@ -17,7 +17,7 @@ A simple command-line tool to perform basic cyber hygiene checks on macOS (with 
 pip install cyber-hygiene
 ```
 
-*(Nota: disponível após publicação no PyPI.)*
+*(Note: available after publishing on PyPI)*
 
 ### Directly from GitHub
 
