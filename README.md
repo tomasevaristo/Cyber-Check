@@ -33,33 +33,4 @@ A simple command-line tool to perform basic cyber hygiene checks on macOS (with 
      ```bash
     python3 CyberCheckScript.py --output result.json --format json
 
-Usage
-
-usage: cyber_check.py [-h] [-o OUTPUT] [-f {text,json}]
-
-Cyber Hygiene Checklist CLI Tool
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -o OUTPUT, --output OUTPUT
-                        Path to output file (optional)
-  -f {text,json}, --format {text,json}
-                        Output format: text or json
-
-Extending Checks
-
-Add new checks: In cyber_check.py, add a function that returns (bool, str) and register it in CHECKS.
-
-Linux/Windows support: Implement OS-specific detection in new functions and conditionally include them.
-
-Contributing
-
-See CONTRIBUTING.md for guidelines on submitting issues and pull requests.
-
-License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-Badges
-
 
