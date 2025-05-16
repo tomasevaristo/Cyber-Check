@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-Cyber Hygiene Checklist CLI Tool
-
-This script runs a set of basic cyber hygiene checks
-(e.g., antivirus, firewall, automatic updates) and
-displays a status report.
-
-Usage:
-    python3 cyber_check.py [--output FILE] [--format text|json]
-
-Example:
-    python3 cyber_check.py --output result.json --format json
-"""
 import argparse
 import json
 import os
