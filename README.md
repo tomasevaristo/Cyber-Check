@@ -15,8 +15,8 @@ A simple command-line tool to perform basic cyber hygiene checks on macOS (with 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/tomasevaristo/cyber-hygiene-checklist.git
-   cd cyber-hygiene-checklist/cli
+   git clone https://github.com/tomasevaristo/Cyber-Check.git
+   cd Cyber-Check
 
 2. **Install requirements (if any external libraries are added)**
 
@@ -26,12 +26,12 @@ A simple command-line tool to perform basic cyber hygiene checks on macOS (with 
 3. **Run the script**
 
      ```bash
-    python3 cyber_check.py
+    python3 CyberCheckScript.py
 
  4. **Export results (If you want)**
 
      ```bash
-    python3 cyber_check.py --output result.json --format json
+    python3 CyberCheckScript.py --output result.json --format json
 
 Usage
 
