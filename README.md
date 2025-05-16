@@ -66,3 +66,6 @@ optional arguments:
 
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
 
+## Print Screens 
+<img width="682" alt="Screenshot 2025-05-16 at 14 23 35" src="https://github.com/user-attachments/assets/db11e384-5e77-4ac9-b085-99f5888b7f21" />
+<img width="682" alt="Screenshot 2025-05-16 at 14 24 30" src="https://github.com/user-attachments/assets/d3c30267-fe29-484f-a046-06f7facbb5ca" />
