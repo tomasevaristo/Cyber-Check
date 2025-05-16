@@ -26,17 +26,6 @@ git clone git@github.com:tomasevaristo/Cyber-Check.git
 cd Cyber-Check
 pip install .
 ```
-
-### Editable install (for development)
-
-```bash
-git clone git@github.com:tomasevaristo/Cyber-Check.git
-cd Cyber-Check
-pip install -e .
-```
-
-*(Requer [Python 3.6+](https://www.python.org/).* )*
-
 ## Quick Start
 
 After installation, the `cyber-hygiene` command becomes available:
