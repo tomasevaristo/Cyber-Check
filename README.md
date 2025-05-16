@@ -43,15 +43,12 @@ After installation, the `cyber-hygiene` command becomes available:
 
 ```bash
 # Show help and options
-echo "=== Help ==="
 cyber-hygiene --help
 
 # Run default checks
-echo "=== Running Checks ==="
 cyber-hygiene
 
 # Export results to JSON
-echo "=== Export JSON ==="
 cyber-hygiene --output result.json --format json
 ```
 
@@ -73,18 +70,10 @@ optional arguments:
 ## Configuration & Extensibility
 
 - **Add new checks**: In `CyberCheckScript.py`, define a function returning `(bool, str)` and register it in `CHECKS`.
-- **Multi-platform**: Implement OS-specific checks under `if sys.platform == ...`.
+- **Multi-platform**: Implement OS-specific checks under `if sys.platform == ...`
 - **Verbose/Quiet modes**: Add flags and use Python’s `logging` module.
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines on issues and pull requests.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
 
-## Badges
-
-[![CI](https://img.shields.io/github/actions/workflow/status/tomasevaristo/Cyber-Check/ci.yml)](https://github.com/tomasevaristo/Cyber-Check/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/tomasevaristo/Cyber-Check)](https://codecov.io/gh/tomasevaristo/Cyber-Check)
