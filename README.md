@@ -28,7 +28,7 @@ A simple command-line tool to perform basic cyber hygiene checks on macOS (with 
      ```bash
     python3 cyber_check.py
 
- 4. **Export results**
+ 4. **Export results (If you want)**
 
      ```bash
     python3 cyber_check.py --output result.json --format json
