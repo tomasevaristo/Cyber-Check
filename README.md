@@ -15,7 +15,7 @@ A simple command-line tool to perform basic cyber hygiene checks on macOS (with 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/cyber-hygiene-checklist.git
+   git clone https://github.com/tomasevaristo/cyber-hygiene-checklist.git
    cd cyber-hygiene-checklist/cli
 
 2. **Install requirements (if any external libraries are added)**
