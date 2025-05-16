@@ -1,33 +1,37 @@
 # Cyber-Check
 A simple command-line tool to perform basic cyber hygiene checks on macOS (with support for antivirus detection, firewall status, and automatic updates). This project aims to help users quickly assess the security posture of their system.
-Features
+# Features
 
-Antivirus Detection: Scans /Applications for known AV vendors and checks for macOS XProtect definitions.
+**Antivirus Detection:** Scans /Applications for known AV vendors and checks for macOS XProtect definitions.
 
-Firewall Status: Queries the built-in Application Firewall via socketfilterfw.
+**Firewall Status:** Queries the built-in Application Firewall via socketfilterfw.
 
-Automatic Updates: Reads the software update schedule using softwareupdate --schedule.
+**Automatic Updates:** Reads the software update schedule using softwareupdate --schedule.
 
-Flexible Output: Print results to the console with icons or export to JSON/text file.
+**Flexible Output:** Print results to the console with icons or export to JSON/text file.
 
-Quick Start
+# Quick Start
 
-Clone the repository
+1. **Clone the repository**
 
-git clone https://github.com/yourusername/cyber-hygiene-checklist.git
-cd cyber-hygiene-checklist/cli
+   ```bash
+   git clone https://github.com/yourusername/cyber-hygiene-checklist.git
+   cd cyber-hygiene-checklist/cli
 
-Install requirements (if any external libraries are added)
+2. **Install requirements (if any external libraries are added)**
 
-pip install -r ../requirements.txt
+     ```bash
+    pip install -r ../requirements.txt
 
-Run the script
+3. **Run the script**
 
-python3 cyber_check.py
+     ```bash
+    python3 cyber_check.py
 
-Export results
+ 4. **Export results**
 
-python3 cyber_check.py --output result.json --format json
+     ```bash
+    python3 cyber_check.py --output result.json --format json
 
 Usage
 
